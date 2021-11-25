@@ -22,9 +22,9 @@ while True:
         avg_attention = total_attention/iter
         total_meditation += dict['eSense']['meditation']
         avg_meditation = total_meditation/iter
-        print("Average attention level: " + str(avg_attention))
+        # print("Average attention level: " + str(avg_attention))
         print("Current attention level: " + str(dict['eSense']['attention']))
-        print("Average meditation level: " + str(avg_meditation))
+        # print("Average meditation level: " + str(avg_meditation))
         print("Current meditation level: " + str(dict['eSense']['meditation']))
         print("-------")
 
